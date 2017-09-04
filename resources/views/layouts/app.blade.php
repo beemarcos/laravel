@@ -59,7 +59,7 @@
                                             Logout
                                         </a>
                                         <a href="{{ route('produtos') }}">Produtos</a>
-                                        <a>Clientes</a>
+                                        <a href="{{ route('clientes') }}">Clientes</a>
                                         <a>Compras</a>
 
                                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
