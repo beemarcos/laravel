@@ -9,7 +9,7 @@ public class MyAppWebViewClient extends WebViewClient {
 
     @Override
     public boolean shouldOverrideUrlLoading(WebView view, String url) {
-        if (Uri.parse(url).getHost().endsWith("192.168.5.103/laravel/public/login")) {
+        if (Uri.parse(url).getHost().endsWith("172.31.0.229/laravel/public/login")) {
             return false;
         }
 

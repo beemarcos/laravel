@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
         webSettings.setJavaScriptEnabled(true);
 
         // Use remote resource
-        mWebView.loadUrl("http://192.168.5.103/laravel/public/login");
+        mWebView.loadUrl("http://172.31.0.229/laravel/public/login");
 
         // Stop local links and redirects from opening in browser instead of WebView
         mWebView.setWebViewClient(new MyAppWebViewClient());
